@@ -1,3 +1,8 @@
 baseURL = "https://uav.berkeley.edu/autocal"
 languageCode = "en-us"
-title = "UC Berkeley Autonomous Systems Compeition Team | AutoCAL"
+#title = "UC Berkeley Autonomous Systems Compeition Team | AutoCAL"
+title = "AutoCAL"
+theme = "hyde"
+
+[Params]
+    description = "UC Berkeley Autonomous Systems Compeition Team"
