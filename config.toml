@@ -1,8 +1,11 @@
-baseURL = "https://uav.berkeley.edu/autocal"
+baseURL = "/autocal/"
 languageCode = "en-us"
 #title = "UC Berkeley Autonomous Systems Compeition Team | AutoCAL"
 title = "AutoCAL"
 theme = "hyde"
+canonifyURLs = false
+relativeurl = true
+
 
 [Params]
-    description = "UC Berkeley Autonomous Systems Compeition Team"
+    description = "UC Berkeley Autonomous Systems Competition Team"

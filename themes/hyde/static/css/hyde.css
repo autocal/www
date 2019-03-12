@@ -68,6 +68,24 @@ html {
     width: 18rem;
     text-align: left;
   }
+  .real-footer {
+    display: none;
+  }
+  .sidebar-footer {
+    font-size: 0.5em;
+  }
+}
+@media (max-width: 48em) {
+  .real-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.75em;
+    padding: 2em 2em 0em 2em;
+  }
+  .sidebar-footer {
+    display: none;
+  }
 }
 
 /* Sidebar links */
