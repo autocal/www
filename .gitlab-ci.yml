@@ -16,7 +16,7 @@ pages:
   - mkdir "${HOME}/.ssh"
   - echo "${SSH_HOST_KEY}" > "${HOME}/.ssh/known_hosts"
   - rsync -hrvz --delete --exclude=_ -e 'ssh -i id_rsa' public/ uav@tsunami.ocf.berkeley.edu:~/public_html/autocal/
-
+  - rm id_rsa
   artifacts:
     paths:
     - public
