@@ -4,6 +4,10 @@ image: monachus/hugo
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
+before_script:
+  - apt-get update
+  = apt-get --yes --force-yes install rsync
+
 pages:
   script:
   - hugo
