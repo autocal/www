@@ -6,7 +6,7 @@ variables:
 
 before_script:
   - apt-get update
-  = apt-get --yes --force-yes install rsync
+  - apt-get --yes --force-yes install rsync
 
 pages:
   script:
