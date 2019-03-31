@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "/autocal/"
 languageCode = "en-us"
 #title = "UC Berkeley Autonomous Systems Compeition Team | AutoCAL"
 title = "AutoCAL"
