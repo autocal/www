@@ -9,3 +9,29 @@ relativeurl = true
 
 [Params]
     description = "UC Berkeley Autonomous Systems Competition Team"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "aircraft"
+    name = "Aircraft"
+    url = "/aircraft/"
+    weight = -110
+
+  [[menu.main]]
+    name = "Contact Us"
+    url = "/contact-us/"
+    weight = -100
+
+  [[menu.main]]
+    name = "Sponsors"
+    url = "/sponsors/"
+    weight = -90
+
+  [[menu.main]]
+    name = "UAVs at Berkeley"
+    post = "<span class='alert'>New!</span>"
+    pre = "<i class='fa fa-road'></i>"
+    url = "https://uav.berkeley.edu/"
+    weight = 100
+
